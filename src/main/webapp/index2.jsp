@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Insert title here</title>
-<script src="http://localhost:8080/demo"></script>
+<script src="http://localhost:8080/demo_web"></script>
 </head>
 <body>
 <h1>Welcome <%=request.getRemoteUser() %></h1>

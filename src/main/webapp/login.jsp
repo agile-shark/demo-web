@@ -24,7 +24,8 @@
 </script>
 <title>Login Page for Examples</title></head>
 <body onload="check();">
-<form method="POST" action='<%= response.encodeURL("j_spring_security_check") %>' >
+<%-- <form method="POST" action='<%= response.encodeURL("j_spring_security_check") %>' > --%>
+<form method="POST" action='<%= response.encodeURL("j_security_check") %>' >
   <table border="0" cellspacing="5">
     <tr>
       <th align="right">Username:</th>

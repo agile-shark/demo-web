@@ -1,5 +1,5 @@
-<%@ page import="org.springframework.security.cas.authentication.CasAuthenticationToken" %>
-<%@ page import="cn.edu.cust.demo.MyDetails" %>
+<%-- <%@ page import="org.springframework.security.cas.authentication.CasAuthenticationToken" %>
+<%@ page import="cn.edu.cust.demo.MyDetails" %> --%>
 <!--
  Licensed to the Apache Software Foundation (ASF) under one or more
   contributor license agreements.  See the NOTICE file distributed with
@@ -18,7 +18,9 @@
 -->
 <html>
 <head>
-<title><%=request.isUserInRole("ROLE_i") + "," + request.getRemoteUser() + "," + ((MyDetails)((CasAuthenticationToken)request.getUserPrincipal()).getUserDetails()).getEmail() %></title>
+<%-- <title><%=request.isUserInRole("ROLE_i") + "," + request.getRemoteUser() + "," + ((MyDetails)((CasAuthenticationToken)request.getUserPrincipal()).getUserDetails()).getEmail() %></title>
+ --%>
+<title>XXX</title>
 </head>
 <frameset cols="20, 80">
 	<frame name="menu" src="atm/menu.jsp">
